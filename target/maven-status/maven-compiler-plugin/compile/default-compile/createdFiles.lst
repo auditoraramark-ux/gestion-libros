@@ -1,0 +1,10 @@
+com\biblioteca\model\Libro.class
+com\biblioteca\dao\LibroDAO.class
+com\biblioteca\dao\PrestamoDAO.class
+com\biblioteca\model\Usuario.class
+com\biblioteca\controller\LibroServlet.class
+com\biblioteca\model\Prestamo.class
+com\biblioteca\controller\PrestamoServlet.class
+com\biblioteca\database\ConexionBD.class
+com\biblioteca\controller\UsuarioServlet.class
+com\biblioteca\dao\UsuarioDAO.class
