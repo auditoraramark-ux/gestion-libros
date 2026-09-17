@@ -13,8 +13,8 @@ Flujo de datos limpio desde el punto de entrada REST hasta el motor relacional:
 
 ```mermaid
 graph TD
-    A[Petición Externa / API Client] -->|Datos de Entrada| B[BookController]
-    B -->|@Valid / Validación de Datos| C[BookService]
+    A[Petición Externa / API Client] --> B[BookController]
+    B --> C[BookService]
     C --> D[BookRepository]
     D --> E[(Base de Datos MySQL)]
 ```
